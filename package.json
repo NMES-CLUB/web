@@ -11,8 +11,9 @@
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.431",
+    "@vercel/analytics": "^1.0.2",
     "next": "13.4.19",
-    "pnpm": "^8.7.0",
+    "pnpm": "^8.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.66.1",
