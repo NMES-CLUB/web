@@ -1,30 +1,21 @@
-import React, { useState } from 'react';
-import Image from 'next/image'
-import Link from 'next/link';
+
 import styles from './page.module.scss'
+import Head from 'next/head';
 
 export const metadata = {
   title: 'Элсэх',
 }
 
 export default async function Page() {
-  const [submittedDateTime, setSubmittedDateTime] = useState('');
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const currentDateTime = new Date().toJSON().replace(/[TZ]/g, '_');
-
-    setSubmittedDateTime(currentDateTime);
-  };
   return (
+  <>
     <main className={styles.main}>
       <div className={styles.container}>
-      <form className={styles.form} action="https://formsubmit.co/nmes.club@gmail.com" method="POST" onSubmit={handleSubmit}>
+      <form className={styles.form} action="https://formsubmit.co/3689a75405b34d9041966f2c5af058f0" method="POST">
         <div className={styles.section}>
           <h2 className={styles.ttitle}>Элсэх хүсэлт</h2>
           <p className={styles.description}>Энэхүү формыг бөглөснөөр бид тантай эргүүлэн холбогдох болно</p>
-          <input type="hidden" name="_next" value={`https://nmes.vercel.app/join/${submittedDateTime}`}/>
+          <input type="hidden" name="_next" value={`https://nmes.vercel.app/join/thanks`}/>
           <input type="hidden" name="_captcha" value="false"/>
           <input type="hidden" name="_template" value="table"/>
         </div>
@@ -48,6 +39,7 @@ export default async function Page() {
       </form>
       </div>
     </main>
+    </>
   )
 }
 
