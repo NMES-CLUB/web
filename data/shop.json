@@ -1,0 +1,63 @@
+[
+    {
+        "name":"Sticker collection #1",
+        "price":"5,000",
+        "PicUrl":"https://th.wallhaven.cc/small/76/76dyeo.jpg",
+        "photoUrl":"https://w.wallhaven.cc/full/76/wallhaven-76dyeo.jpg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+        "co":"ШМТДС оюутны холбоо",
+        "bank":{
+            "bname": "Khan",
+            "number": "5070809010",
+            "uname": "Бат"
+        },
+        "sizes": [
+            {
+                "name": "S",
+                "price": "5000",
+                "stoke": "99"
+            },
+            {
+                "name": "M",
+                "price": "7000",
+                "stoke": "69"
+            },
+            {
+                "name": "L",
+                "price": "9000",
+                "stoke": "29"
+            }
+        ]
+    },
+    
+    {
+        "name":"test",
+        "price":"5,000",
+        "PicUrl":"https://th.wallhaven.cc/small/76/76dyeo.jpg",
+        "photoUrl":"https://w.wallhaven.cc/full/76/wallhaven-76dyeo.jpg",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+        "co":"ШМТДС оюутны холбоо",
+        "bank":{
+            "bname": "Khan",
+            "number": "5070809010",
+            "uname": "Бат"
+        },
+        "sizes": [
+            {
+                "name": "S",
+                "price": "5000",
+                "stoke": "99"
+            },
+            {
+                "name": "M",
+                "price": "7000",
+                "stoke": "69"
+            },
+            {
+                "name": "L",
+                "price": "9000",
+                "stoke": "29"
+            }
+        ]
+    }
+]
