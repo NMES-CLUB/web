@@ -84,8 +84,7 @@ export default function navbar() {
                     }`}
                     href={`/${name}`}
                   >
-                    {currentPathname}
-                    {/* {name} */}
+                    {name}
                   </Link>
                 );
               })}
