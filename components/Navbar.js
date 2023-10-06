@@ -74,6 +74,7 @@ export default function navbar() {
               </div>
             </Link>
             <div className={styles.links}>
+              <p style={{display: 'none'}}>{currentPathname}</p>
               {links.map((name) => {
                 return (
                   <Link

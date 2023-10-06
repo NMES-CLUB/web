@@ -13,14 +13,24 @@ export const metadata = {
     default: 'NMES club',
   },
   openGraph: {
-    title: 'NEMS club',
+    title: 'NMES club',
     description: 'Unleash Your Creativity',
-    site_name : 'NEMS club',
+    site_name : 'NMES club',
     type: 'website',
-    url: 'nmit.club',
+    url: 'nmes.vercel.app',
+    images: 'https://nmes.vercel.app/thumbnail.jpg',
+    videos: [
+      'https://nmes.vercel.app/4k.mp4',
+      { 
+        'type': 'application/x-shockwave-flash',
+        'width': '398',
+        'height': '264',
+      },
+    ],
   },
   description: 'Unleash Your Creativity',
 }
+
 
 export default function RootLayout({ children }) {
   return (
