@@ -1,10 +1,10 @@
-'use client'
+"use client"
 import Spline from '@splinetool/react-spline';
 import styles from "./Components.module.scss"
 
-export default async function SplineModel(){
+export default function SplineModel(){
     return (
-        <Spline className={styles.spline} scene="https://prod.spline.design/ILtusWuoDeNd9iSH/scene.splinecode" />
+        <Spline className={styles.spline} scene="https://prod.spline.design/ImiHoSBtUAJhtJdB/scene.splinecode" />
     )
     // await sleep(2000);
 }

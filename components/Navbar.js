@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from "./Components.module.scss"
 import React, { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation'
+import SigninButton from './SigninButton';
 
 export default function navbar() {
 
@@ -92,7 +93,7 @@ export default function navbar() {
             </div>
           </div>
           <div className={styles.btns}>
-            <Link className={styles.btn} href={"https://www.instagram.com"}>
+            <Link className={styles.btn} href={"https://www.instagram.com/nmes_nmit"}>
               <svg
                 width="20"
                 height="20"
@@ -141,9 +142,10 @@ export default function navbar() {
                 />
               </svg>
             </Link>
-            <Link className={`${styles.btn} ${styles.btn_join}`} href={'/join'}>
+            {/* <Link className={`${styles.btn} ${styles.btn_join}`} href={'/join'}>
               Элсэх
-            </Link>
+            </Link> */}
+            <SigninButton/>
           </div>
         </nav>
         <nav className={styles.nav_mobile}>
@@ -203,9 +205,7 @@ export default function navbar() {
             </Link>
             </div>
             <div className={styles.grid_item3}>
-              <Link className={styles.btn_join} href={'/join'}>
-                Элсэх
-              </Link>
+              <SigninButton/>
             </div>
           </div>
           <div className={styles.drop}>
@@ -226,7 +226,7 @@ export default function navbar() {
               })}
             </div>
             <div className={styles.social}>
-              <Link className={styles.btn} href={"https://www.instagram.com"}>
+              <Link className={styles.btn} href={"https://www.instagram.com/nmes_nmit/"}>
                 <svg
                   width="20"
                   height="20"

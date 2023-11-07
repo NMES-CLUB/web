@@ -26,8 +26,8 @@ export default function Cards({ data }){
           slidesPerView: 3,
         },
       }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
       >
       {data.items.map(item => {
           const { id, snippet = {} } = item;
