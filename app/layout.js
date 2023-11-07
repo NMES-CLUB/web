@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Colors from '../components/Colors'
 import Footer from '../components/Footer'
 import Cursor from '../components/Cursor'
+import Providers from '@/components/Providers';
 const inter = Inter({ subsets: ['latin', 'cyrillic'] })
 
 export const metadata = {
@@ -49,11 +50,13 @@ export default function RootLayout({ children }) {
       </Head> */}
       <body className={inter.className}>
         {/* <Cursor/> */}
+        <Providers>
         <Navbar/>
         <Colors/>
         {children}
         <Footer/>
         <Analytics />
+        </Providers>
       </body>
     </html>
   )
