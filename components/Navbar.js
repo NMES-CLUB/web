@@ -8,7 +8,13 @@ import SigninButton from './SigninButton';
 
 export default function navbar() {
 
-    const links = ['videos', 'shop', 'academy', 'contact', 'about-us'];
+    const links = [
+      'videos',
+      'shop',
+      'academy',
+      'contact',
+      // 'about-us'
+    ];
 
     const [scrolling, setScrolling] = useState(false);
 
