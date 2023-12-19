@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use client"
 import Spline from '@splinetool/react-spline';
 import styles from "./Components.module.scss"
@@ -13,20 +12,3 @@ export default function SplineModel(){
 // function sleep(ms) {
 //     return new Promise(resolve => setTimeout(resolve, ms));
 //   }
-=======
-"use client"
-import Spline from '@splinetool/react-spline';
-import styles from "./Components.module.scss"
-
-export default function SplineModel(){
-    return (
-        <Spline className={styles.spline} scene="https://prod.spline.design/ImiHoSBtUAJhtJdB/scene.splinecode" />
-    )
-    // await sleep(2000);
-}
-
-// function sleep(ms) {
-//     return new Promise(resolve => setTimeout(resolve, ms));
-//   }
->>>>>>> d92f634af31e83bfcefe10bf8da239c9fff48772
-  
